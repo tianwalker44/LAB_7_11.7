@@ -3,6 +3,7 @@ title: "lab_7"
 author: "Tian Walker, Dominik Grätz, Amber Somarriba, Brittany Spinner, Rachel Miller-Moudgil"
 date: "2022-11-03"
 output: pdf_document
+bibliography: references_LAB7.bib
 ---
 
 # commit 1 (code hidden)
@@ -55,4 +56,9 @@ ggplot(star, aes(x = totexp, y = tmathss)) +
 #dominiks version
 #test
 ```
+
+
+\newpage
+#References 
+
 
