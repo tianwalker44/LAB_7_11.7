@@ -57,22 +57,12 @@ ggplot(star, aes(x = totexp, y = tmathss)) +
 #dominiks version
 #test
 ```
-@10.2307/1602360
+[@Wickham_2019]
 
 
 \newpage
 # References 
 
-@BUDDIN2009103
-
-
-@CLOTFELTER2007673
-
-
-@KUKLAACEVEDO200949
-
-
-@KANE2008615
 
 
 
