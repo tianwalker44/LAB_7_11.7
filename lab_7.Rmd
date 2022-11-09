@@ -39,7 +39,7 @@ This data set was collected from the Tennessee class size project, which is a th
 # commit 4
 ```{r Commit 4, echo=FALSE, warning=TRUE, message=FALSE}
 star$frl <- factor(star$frl)
-
+#can you read this msg?
 
 ggplot(star, aes(x = totexp, y = tmathss)) +
   geom_point(color = "grey") + 
