@@ -16,6 +16,24 @@ star <- import(here("data", "star.csv"))
 
 ```
 
+# commit 3
+```{r Commit 3}
+
+head(star)
+
+star1 <- star %>% 
+  group_by(sex, frl) %>% 
+  summarize(math_mean = mean(tmathss),
+math_sd = sd(tmathss),
+rdg_mean = mean(treadss),
+rdg_sd = sd(treadss)) 
+
+as.tibble(star1)
+```
+The scores `r star1$math_mean` represent ( _in order_ ) the mean math scores for boys _without_, boys _with_, and girls _without_, and girls _with_ free or reduced price lunches in this data sample. The standard deviation of the math mean scores `r star1$math_sd` represent ( _in order_ ) the standard deviation of math scores for boys _without_, boys _with_, and girls _without_, and girls _with_ free or reduced price lunches in this data sample. The  scores `r star1$rdg_mean` represent the mean reading scores for boys _without_, boys _with_, and girls _without_, and girls _with_ free or reduced price lunches in this sample. And the standard deviation of reading scores `r star1$rdg_sd` represent the standard deviation of reading scores for for boys _without_, boys _with_, and girls _without_, and girls _with_ free or reduced price lunches in this data sample.
+
+
+
 # commit 4
 ```{r Commit 4}
 star$frl <- factor(star$frl)
