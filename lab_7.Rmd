@@ -54,8 +54,6 @@ ggplot(star, aes(x = totexp, y = tmathss)) +
   theme_minimal() +
   theme(legend.position = "bottom")
 
-#dominiks version
-#test
 ```
 @10.2307/1602360
 
