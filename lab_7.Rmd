@@ -21,6 +21,7 @@ star <- import(here("data", "star.csv"))
 ```{r Commit 3, echo=FALSE, message=FALSE}
 
 #head(star)
+# comment
 
 star_df <- star %>% 
   group_by(sex, frl) %>% 
