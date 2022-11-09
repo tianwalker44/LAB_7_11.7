@@ -33,6 +33,7 @@ knitr::kable(star_df, booktabs = TRUE)
 ```
 The scores `r star_df$math_mean` represent ( _in order_ ) the mean math scores for boys _without_, boys _with_, and girls _without_, and girls _with_ free or reduced price lunches in this data sample. The standard deviation of the math mean scores `r star_df$math_sd` represent ( _in order_ ) the standard deviation of math scores for boys _without_, boys _with_, and girls _without_, and girls _with_ free or reduced price lunches in this data sample. The  scores `r star_df$rdg_mean` represent the mean reading scores for boys _without_, boys _with_, and girls _without_, and girls _with_ free or reduced price lunches in this sample. And the standard deviation of reading scores `r star_df$rdg_sd` represent the standard deviation of reading scores for for boys _without_, boys _with_, and girls _without_, and girls _with_ free or reduced price lunches in this data sample.
 
+This data set was collected from the Tennessee class size project, which is a three-phase study designed to investigate  short-term and long-term pupil performance in the earliest grades. @10.2307/1602360
 
 
 # commit 4
@@ -56,6 +57,7 @@ ggplot(star, aes(x = totexp, y = tmathss)) +
 #dominiks version
 #test
 ```
+@10.2307/1602360
 
 
 \newpage
